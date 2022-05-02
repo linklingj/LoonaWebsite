@@ -1,3 +1,7 @@
+body {
+  font-family: 'Do Hyeon', sans-serif;
+  word-break: keep-all;
+}
 body::before {
   display: block;
   content: '';
@@ -8,4 +12,14 @@ body::before {
   .news-input {
     width: 50%;
   }
+}
+
+#profile {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.heejinPink {
+  color: #ED0090;
 }
